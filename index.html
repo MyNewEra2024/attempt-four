@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant shop</title>
+    <link rel="shortcut icon" href="Other/photo/oher_photo/icon_2.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="MAIN">
+    <header>
+        <nav class="main-nav">
+            <ul class="menu">
+                <li class="to-left menu-item "><a class="menu-link" href="#MAIN">Logo</a></li>
+                <li class="menu-item"><a class="menu-link" href="#SHOP">Shop</a></li>
+                <li class="menu-item"><a class="menu-link" href="#CONTACT US">About us</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">Contact us</a></li>
+                <li class="menu-item to-right"><a class="menu-link" href="#"><img class="menu-icon"
+                            src="Other/photo/oher_photo/SHOP.png" alt=""></a></li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-section">
+            <div>
+                <h1 class="main-info">DISCOVER<br>NEW<br>PLANTS<br></h1>
+                <p class="main-text">Exotic and beautiful plants for your own home</p>
+                <a class="buttom-shop" href="">SHOP ALL PRODUCTS</a>
+            </div>
+            <img class="main-img" src="Other/photo/oher_photo/main_photo.webp" alt="">
+        </section>
+        <!-- --------------------------SHOP-------------------------- -->
+        <section id="SHOP" class="shop-section">
+            <p class="border-text">Plants New Morkovks &#9789; Plants New Morkovks &#9789; Plants New Morkovks &#9789;
+            </p>
+            <h2 class="title-shop">SHOP</h2>
+            <div class="block-filter">
+                <button onclick="loadProducts(1)" class="filter-buttom">1</button>
+                <button onclick="loadProducts(2)" class="filter-buttom">2</button>
+                <button onclick="loadProducts(3)" class="filter-buttom">3</button>
+            </div>
+            <ul id="produc-list" class="boxin"></ul>
+        </section>
+        <!-- --------------------------  Сontact us  -------------------------- -->
+        <section id="CONTACT US" class="contact-us-section">
+
+        </section>
+        <!-- -------------------------- Footer -------------------------- -->
+        <footer>
+            <ul class="contact-us">
+                <li class="footer-one-section">
+                    <h3 class="main-footer-title">Logo</h3>
+                    <ul class="contactct-info">
+                        <li>(+380)-50-678-57-47</li>
+                        <li>mynewkompromat@gmail.com</li>
+                        <li>vasyl.kozlovskyi.00@gmail.com</li>
+                    </ul>
+
+                </li>
+                <li class="footer-three-section">
+                    <ul>
+                        <h3 class="main-footer-title">Stay up to date</h3>
+                        <li class="footer-list-item ss">
+                            <input type="search" class="footer-list-input" placeholder="Enter your email" />
+                            <button class="footer-list-btn" type="submit">Submit</button>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
